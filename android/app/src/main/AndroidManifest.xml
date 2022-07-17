@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.f1_time_schedule">
+    package="com.emilianocesare.f1_time_schedule">
    <application
-        android:label="f1_time_schedule"
+        android:label="F1: Time Schedule"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
