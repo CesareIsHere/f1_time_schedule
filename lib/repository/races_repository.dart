@@ -10,12 +10,12 @@ class RacesRepository {
   static List<Race> races = [
     Race(
         image: "$images_path/bahrain.png",
-        name: "BARHAIN - BAHRAIN INTERNATIONAL CIRCUIT",
+        name: "BAHRAIN - BAHRAIN INTERNATIONAL CIRCUIT",
         extRacerName: "Lewis Hamilton(Mercedes - 2020)",
         extHotLap: "1:27:260"),
     Race(
         image: "$images_path/jeddah.png",
-        name: "ARABIA SAUDITA - JEDDAH STREET CIRCUIT",
+        name: "SAUDI ARABIA - JEDDAH STREET CIRCUIT",
         extRacerName: "Lewis Hamilton(Mercedes - 2021)",
         extHotLap: "1:27:510"),
     Race(
@@ -25,7 +25,7 @@ class RacesRepository {
         extHotLap: "1:24:125"),
     Race(
         image: "$images_path/imola_enzo_ferrari.png",
-        name: "ITALIA - AUTODROMO ENZO E DINO FERRARI",
+        name: "ITALY - AUTODROMO ENZO E DINO FERRARI",
         extRacerName: "Valtteri Bottas(Mercedes - 2020)",
         extHotLap: "1:13:609"),
     // Race(
@@ -35,7 +35,7 @@ class RacesRepository {
     //     extHotLap: "1:28:795"),
     Race(
         image: "$images_path/spagna.png",
-        name: "SPAGNA - CIRCUIT DE BARCELONA-CATALUNYA",
+        name: "SPAIN - CIRCUIT DE BARCELONA-CATALUNYA",
         extRacerName: "Lewis Hamilton(Mercedes - 2021)",
         extHotLap: "1:16:741"),
     Race(
@@ -55,27 +55,27 @@ class RacesRepository {
         extHotLap: "1:10:240"),
     Race(
         image: "$images_path/gran-bretagna.png",
-        name: "GRAN BRETAGNA - SILVERSTONE CIRCUIT",
+        name: "GREAT BRITAIN - SILVERSTONE CIRCUIT",
         extRacerName: "Lewis Hamilton(Mercedes - 2020)",
         extHotLap: "1:24:303"),
     Race(
         image: "$images_path/francia.png",
-        name: "FRANCIA - CIRCUIT PAUL RICARD",
+        name: "FRANCE - CIRCUIT PAUL RICARD",
         extRacerName: "Lewis Hamilton(Mercedes - 2019)",
         extHotLap: "1:28:319"),
     Race(
         image: "$images_path/ungheria.png",
-        name: "UNGHERIA - HUNGARORING",
+        name: "HUNGARY - HUNGARORING",
         extRacerName: "Lewis Hamilton(Mercedes - 2020)",
         extHotLap: "1:13:447"),
     Race(
         image: "$images_path/belgio_spa-francorchamps.png",
-        name: "BELGIO - CIRCUIT DE SPA-FRANCORCHAMPS",
+        name: "BELGIUM - CIRCUIT DE SPA-FRANCORCHAMPS",
         extRacerName: "Lewis Hamilton(Mercedes - 2020)",
         extHotLap: "1:41:252"),
     Race(
         image: "$images_path/italia_monza.png",
-        name: "ITALIA - AUTODROMO NAZIONALE DI MONZA",
+        name: "ITALY - AUTODROMO NAZIONALE DI MONZA",
         extRacerName: "Lewis Hamilton(Mercedes - 2020)",
         extHotLap: "1:18:887"),
     Race(
@@ -85,22 +85,22 @@ class RacesRepository {
         extHotLap: "1:36:015"),
     Race(
         image: "$images_path/giappone.png",
-        name: "GIAPPONE - SUZUKA INTERNATIONAL RACING COURSE",
+        name: "JAPAN - SUZUKA INTERNATIONAL RACING COURSE",
         extRacerName: "Sebastian Vettel(Ferrari - 2019)",
         extHotLap: "1:27:063"),
     Race(
         image: "$images_path/stati-uniti.png",
-        name: "STATI UNITI - CIRCUIT OF THE AMERICAS",
+        name: "USA - CIRCUIT OF THE AMERICAS",
         extRacerName: "Valtteri Bottas(Mercedes - 2019)",
         extHotLap: "1:32:029"),
     Race(
         image: "$images_path/messico.png",
-        name: "MESSICO - AUTODROMO HERMANOS RODRIGUEZ",
+        name: "MEXICO - AUTODROMO HERMANOS RODRIGUEZ",
         extRacerName: "Valtteri Bottas(Mercedes - 2021)",
         extHotLap: "1:17:774"),
     Race(
         image: "$images_path/brasile.png",
-        name: "BRASILE - AUTODROMO JOSE' CARLOS PACE",
+        name: "BRASIL - AUTODROMO JOSE' CARLOS PACE",
         extRacerName: "Lewis Hamilton(Mercedes - 2018)",
         extHotLap: "1:07:281"),
     Race(

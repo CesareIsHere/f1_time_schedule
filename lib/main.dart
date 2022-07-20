@@ -32,7 +32,7 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'F1: time schedule',
+      title: 'F1: Time Schedule',
       theme: ThemeData(
         primarySwatch: Colors.red,
         brightness: Brightness.dark,

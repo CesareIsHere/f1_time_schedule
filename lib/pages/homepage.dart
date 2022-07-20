@@ -19,11 +19,24 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('F1 2022: time schedule'),
+        title: const Text('F1: Time Schedule'),
         centerTitle: true,
         backgroundColor: Colors.red,
       ),
       body: body(),
+      bottomNavigationBar: BottomAppBar(
+        child: Container(
+          height: 30,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              const Text('v1.0.0'),
+              const SizedBox(width: 10),
+              const Text('©2022 Emiliano Cesare'),
+            ],
+          ),
+        ),
+      ),
     );
   }
 
@@ -90,30 +103,29 @@ class _HomePageState extends State<HomePage> {
                   width: 100,
                   image: AssetImage(RacesRepository.races[index].image),
                 ),
-                title: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.center,
+                title: Row(
                   children: [
-                    Row(
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
                           "Record hotlap:",
                           style: TextStyle(fontSize: 14),
                         ),
-                        SizedBox(width: 10),
+                        Text(
+                          "Your hotlap:",
+                          style: TextStyle(fontSize: 14),
+                        ),
+                      ],
+                    ),
+                    SizedBox(width: 10),
+                    Column(
+                      children: [
                         Text(RacesRepository.races[index].extHotLap,
                             style: TextStyle(
                               fontSize: 14,
                               fontWeight: FontWeight.bold,
                             )),
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Text(
-                          "Your hotlap:",
-                          style: TextStyle(fontSize: 14),
-                        ),
                         SizedBox(width: 25),
                         Text(
                             RacesRepository.races[index].getHotLap(
@@ -233,7 +245,7 @@ class _HomePageState extends State<HomePage> {
               ),
               SizedBox(height: 10),
               AutoSizeText(
-                "Fatto da: ${RacesRepository.races[raceIndex].extRacerName}",
+                "Made by: ${RacesRepository.races[raceIndex].extRacerName}",
                 minFontSize: 6,
                 maxLines: 1,
                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -300,7 +312,7 @@ class _HomePageState extends State<HomePage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(Icons.remove_circle),
-                          Text(" Cancella circuito"),
+                          Text(" Remove circuit"),
                         ],
                       )),
                 ),
@@ -341,7 +353,7 @@ class _HomePageState extends State<HomePage> {
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
                   labelText: "Circuit Name",
-                  hintText: "ITALIA - AUTODROMO DI MONZA",
+                  hintText: "ITALY - AUTODROMO DI MONZA",
                 ),
               ),
             ),
